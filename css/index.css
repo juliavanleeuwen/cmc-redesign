@@ -16,6 +16,13 @@ body {
     color: #707070;
 }
 
+.dropdown-menu {
+    background-color: #E2EBEB;
+    color:#01163F;
+    border-style: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 header {
     height: 335px;
 }
@@ -66,6 +73,15 @@ header {
     background-size: cover;
     background-repeat: none;
     height: 600px;
+    background-position: center;
+}
+
+.joinJumbo {
+    background-image: url("../Images/join-heroimg@2x.png");
+    background-size: cover;
+    background-repeat: none;
+    height: 600px;
+    background-position: center;
 }
 
 h1, h2, h3, h4, h5 {
@@ -337,11 +353,11 @@ p.mb-1 {
 
 
 .display-4 {
-    font-size: 36px;
+    font-size: 48px;
 }
 
 .lead {
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .slider {
@@ -358,9 +374,10 @@ p.mb-1 {
     font-size: 16px;
 }
 
-.card {
+.mobileCards {
     margin-bottom: 25px;
 }
+
 
 .blueBtn {
     font-size: 14px;
@@ -372,5 +389,23 @@ p.mb-1 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.copy {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center; 
+}
+
+.joinCards {
+    padding: 5px;
+    margin: 10px;
+    
+}
+
+h2 {
+    margin: 20px;
+}
+
 
 };
